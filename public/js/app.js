@@ -40,7 +40,7 @@ weatherForm.addEventListener("submit", (e) => {
         console.log(data.location);
         console.log(data.forecast);
         msgOne.textContent = data.location;
-        msgTwo.textContent = data.forecast.description;
+        msgTwo.textContent = data.forecast;
       }
     });
   });
