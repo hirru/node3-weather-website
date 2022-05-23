@@ -28,7 +28,7 @@ const msgTwo = document.querySelector("#msg-2");
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const location = search.value;
-  const forecstUrl = `http://localhost:3000/weather?address=${location}`;
+  const forecstUrl = `/weather?address=${location}`;
   msgOne.textContent = "loading...";
   msgTwo.textContent = "";
   fetch(forecstUrl).then((response) => {
