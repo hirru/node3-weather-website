@@ -106,7 +106,7 @@ app.get("/weather", (req, res) => {
   });
 });
 
-//app.com
+// app.com
 //app.com/help
 //app.com/about
 
@@ -155,5 +155,5 @@ app.get("*", (req, res) => {
 // 4. Test your work, visit /what and /help/units
 
 app.listen(port, () => {
-  console.log(`Server is up on port: 3000`);
+  console.log(`Server is up on port:3000`);
 });
